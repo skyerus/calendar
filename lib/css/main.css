@@ -2,10 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
+#calendarMonth {
     margin: 0;
-    padding: 0em 0em 0.5em 0em;
-    text-align: center;
 }
 
 .container {
@@ -15,10 +13,35 @@ h3 {
     border-radius: 3px;
 }
 
+#month-wrapper {
+    padding: 0em 0em 0.5em 0em;
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+#month-year {
+    grid-column: 4/6;
+    justify-self: center;
+}
+
+#right-arrow-container {
+    grid-column: 6/7;
+}
+
+#left-arrow-container {
+    grid-column: 3/4;
+    margin-left:85%;
+}
+
+.arrow {
+    width:auto;
+    height:100%;
+}
+
 #day-wrapper {
     display:grid;
     grid-template-columns: repeat(7,1fr);
-    border-radius: 10px;
+    border-radius: 3px;
     margin-bottom: 0.2em;
     background-color: rgba(49, 49, 48, 0.76);
     /* border-bottom:  rgb(77, 72, 72) 1px solid; */
