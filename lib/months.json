@@ -1,40 +1,65 @@
-[
-    {
-        "month":"january",
-         "1":"blue",
-         "12":"red"
-    },
-    {
-        "month":"february"
-    },
-    {
-        "month":"march"
-    },
-    {
-        "month":"april"
-    },
-    {
-        "month":"may"
-    },
-    {
-        "month":"june"
-    },
-    {
-        "month":"july"
-    },
-    {
-        "month":"august"
-    },
-    {
-        "month":"september"
-    },
-    {
-        "month":"october"
-    },
-    {
-        "month":"november"
-    },
-    {
-        "month":"december"
-    }
-]
+{"2018": [
+        {
+            "month":"january",
+            "1": {
+                "colour":"blue",
+                "text":"Hello!"
+            },
+            "12":{
+                "colour":"light-gray",
+                "text":""
+            }
+        },
+        {
+            "month":"february"
+        },
+        {
+            "month":"march"
+        },
+        {
+            "month":"april"
+        },
+        {
+            "month":"may"
+        },
+        {
+            "month":"june",
+            "1": {
+                "colour":"blue",
+                "text":"Hello!"
+            },
+            "15" :{
+                "colour":"light-grey"
+            }
+        },
+        {
+            "month":"july",
+            "1": {
+                "colour":"blue"
+            },
+            "8": {
+                "colour":"red",
+                "text":"Hello!"
+            },
+            "19": {
+                "colour":"purple"
+            }
+        },
+        {
+            "month":"august"
+        },
+        {
+            "month":"september"
+        },
+        {
+            "month":"october"
+        },
+        {
+            "month":"november"
+        },
+        {
+            "month":"december"
+        }
+    ]
+}
+    
