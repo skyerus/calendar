@@ -72,10 +72,13 @@ body {
 
 .red {
     background-color: rgba(248, 11, 11, 0.603);
+    color: #fff;
 }
 
 .blue {
-    background-color: #0b47cacc
+    /* background-color: #0b47cacc */
+    background-color: 	#3b5998;
+    color: #fff;
 }
 
 .light-grey {
@@ -84,6 +87,7 @@ body {
 
 .purple {
     background-color: blueviolet;
+    color: #fff;
 }
 
 .calendar-text {
