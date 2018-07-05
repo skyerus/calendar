@@ -35,7 +35,8 @@
         {
             "month":"july",
             "1": {
-                "colour":"blue"
+                "colour":"blue",
+                "colourTwo":"red"
             },
             "8": {
                 "colour":"red",
