@@ -15,8 +15,10 @@ body {
 
 #month-wrapper {
     padding: 0em 0em 0.5em 0em;
-    display:grid;
-    grid-template-columns: repeat(8,1fr);
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height:3%;    
 }
 
 #month-year {
@@ -24,20 +26,21 @@ body {
     justify-self: center;
 }
 
-#right-arrow-container {
-    grid-column: 6/7;
-    justify-self:center;
-}
+/* #right-arrow-container {
 
-#left-arrow-container {
-    grid-column: 3/4;
-    justify-self:center;
-    /* justify-self:end; */
-}
+} */
+
+/* #left-arrow-container {
+    /* justify-self:end;
+} */
 
 .arrow {
     width:auto;
     height:100%;
+}
+
+#rightArrow {
+    transform: scaleX(-1);
 }
 
 #day-wrapper {
@@ -77,6 +80,10 @@ body {
 
 .red {
     background-color: rgba(248, 11, 11, 0.603);
+}
+
+.blue {
+    background-color: #0b47cacc
 }
 
 .calendar-text {
