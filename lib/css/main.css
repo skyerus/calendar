@@ -26,14 +26,6 @@ body {
     justify-self: center;
 }
 
-/* #right-arrow-container {
-
-} */
-
-/* #left-arrow-container {
-    /* justify-self:end;
-} */
-
 .arrow {
     width:auto;
     height:100%;
@@ -74,7 +66,7 @@ body {
 .calendar-number {
     text-align: right;
     margin:0;
-    padding: 0.3em 0.5em 0em 0.5em;
+    padding: 0.3em 0.5em 0.3em 0.5em;
     border: rgba(77, 72, 72, 0.548) 1px solid;
 }
 
@@ -86,8 +78,16 @@ body {
     background-color: #0b47cacc
 }
 
+.light-grey {
+    background-color: rgba(211, 211, 211, 0.596);
+}
+
+.purple {
+    background-color: blueviolet;
+}
+
 .calendar-text {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 5px;
     text-align: left;
     padding: 0.3em 0.5em;
