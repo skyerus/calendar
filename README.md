@@ -6,8 +6,8 @@ I've used vanilla JavaScript to create a calendar.
 
 Current features:
 
-..* Change month with the arrows next to current month/year
-..* Makes AJAX request to a local .json file that decides the colour scheme/text for each day (or group of days).
+* Change month with the arrows next to current month/year
+* Makes AJAX request to a local .json file that decides the colour scheme/text for each day (or group of days).
 
 ---
 
@@ -27,9 +27,9 @@ I use the [XAMPP](https://www.apachefriends.org/index.html) stack to develop & t
 
 ## Built With
 
-JavaScript
-HTML
-CSS
+* JavaScript
+* HTML
+* CSS
 
 ---
 
