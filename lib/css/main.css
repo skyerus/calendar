@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Arial,Helvetica,sans-serif ;
 }
 
 #calendarMonth {
@@ -26,11 +26,13 @@ body {
 
 #right-arrow-container {
     grid-column: 6/7;
+    justify-self:center;
 }
 
 #left-arrow-container {
     grid-column: 3/4;
-    margin-left:85%;
+    justify-self:center;
+    /* justify-self:end; */
 }
 
 .arrow {
