@@ -48,7 +48,7 @@ body {
     display:grid;
     grid-template-columns: 1fr 1fr;
     margin:0;
-    border: rgba(77, 72, 72, 0.548) 0.8px solid;
+    border-bottom: rgba(77, 72, 72, 0.548) 1px solid;
 }
 
 #day-wrapper > div {
@@ -94,7 +94,7 @@ body {
 }
 
 .green {
-    background-color: #32CD32;
+    background-color: #50C878;
     color: #fff;
 }
 
@@ -110,7 +110,6 @@ body {
 
 .yellow {
     background-color:#EEE8AA;
-    color: #fff;
 }
 
 .calendar-text {
